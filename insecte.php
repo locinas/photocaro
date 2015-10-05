@@ -9,6 +9,9 @@
 <link rel="stylesheet" href="css/touchTouch.css">
 
 <link rel="stylesheet" href="css/style.css">
+
+<?php require 'php/logique.php'; ?>
+
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate-1.1.1.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
@@ -21,13 +24,14 @@
 <script src="js/touchTouch.jquery.js"></script>
 
 <script>
- $(window).load(function(){
-  $().UItoTop({ easingType: 'easeOutQuart' });
-  $('#stuck_container').tmStickUp({}); 
-    $('.gallery .gall_item').touchTouch();
- }); 
+$(window).load(function(){
+	$().UItoTop({ easingType: 'easeOutQuart' });
+	$('#stuck_container').tmStickUp({}); 
+   	$('.gallery .gall_item').touchTouch();
+}); 
 
 </script>
+
 <!--[if lt IE 8]>
  <div style=' clear: both; text-align:center; position: relative;'>
    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -99,15 +103,7 @@
           <a href="images/big2.jpg" class="gall_item"><img src="images/page3_img2.jpg" alt=""><span></span></a>
         </div>
       </div>
-      <div class="grid_4">
-        <div class="box">
-          <a href="images/big3.jpg" class="gall_item"><img src="images/page3_img3.jpg" alt=""><span></span></a>
-          <div class="box_bot">
-            <div class="box_bot_title">Portraits</div>
-            <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit</p>
-            <a href="#" class="btn">plus</a>
-          </div>
-        </div>
+      <?php construireDivImages("insectes") ?>
     </div>
   </div>
 </section>
