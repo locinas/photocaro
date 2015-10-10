@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Phot'Ô Caro</title>
+<title>Album Insectes</title>
 <meta charset="utf-8">
 <meta name = "format-detection" content = "telephone=no" />
 <link rel="icon" href="images/favicon.ico">
@@ -98,12 +98,7 @@ $(window).load(function(){
       <div class="grid_12">
         <h2><a href="gallery.html" style="font-size: 30px;">Gallerie</a> </br> Insectes</h2>
       </div>
-      <div class="grid_4">
-        <div class="box">
-          <a href="images/big2.jpg" class="gall_item"><img src="images/page3_img2.jpg" alt=""><span></span></a>
-        </div>
-      </div>
-      <?php construireDivImages("insectes") ?>
+      <?php construireDivImages("nature") ?>
     </div>
   </div>
 </section>
