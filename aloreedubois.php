@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Phot'Ô Caro</title>
+<title>Phot'&Ocirc; Caro</title>
 <meta charset="utf-8">
 <meta name = "format-detection" content = "telephone=no" />
 <link rel="icon" href="images/favicon.ico">
@@ -54,7 +54,7 @@ $(window).load(function(){
     <div class="container">
       <div class="row">
         <div class="grid_12">
-          <h1><a href="#">Phot'Ô Caro</a></h1>
+          <h1><a href="#">Phot'&Ocirc; Caro</a></h1>
            Photographe
         </div>
       </div>
@@ -69,7 +69,7 @@ $(window).load(function(){
         <div class="grid_12 ">
           <h1 class="logo">
             <a href="index.html">
-              Phot'Ô Caro
+              Phot'&Ocirc; Caro
             </a>
           </h1>
           <div class="navigation ">
@@ -96,7 +96,7 @@ $(window).load(function(){
   <div class="container">
     <div class="row">
       <div class="grid_12">
-        <h2>A l'orée du bois</h2>
+        <h2>A l'or&eacute;e du bois</h2>
       </div>
       <?php construireDivImages("aloreedubois") ?>
     </div>
