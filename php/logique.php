@@ -42,7 +42,7 @@ function creationAssociationImage($dir) {
 	foreach ($association as $key => $valeur2) {
 		$nomImage = preg_replace('#small#', '', $key);
 		foreach ($tabBig as $value) {
-			if(substr_count($value, $nomImage) > 0) {
+			if(substr_count(strtolower($nomImage), strtolower($value)) > 0) {
 				$association[$key]= $value;
 			}
 		}	
