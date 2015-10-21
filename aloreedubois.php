@@ -77,7 +77,7 @@ $(window).load(function(){
               <ul class="sf-menu">
                <li class="current"><a href="index.html">Accueil</a></li>
                <li><a href="about.html">Biographie</a></li>
-               <li><a href="gallery.html">Gallerie</a></li>
+               <li><a href="gallery.html">Galerie</a></li>
                <li><a href="contacts.html">Contact</a></li>
              </ul>
             </nav>
